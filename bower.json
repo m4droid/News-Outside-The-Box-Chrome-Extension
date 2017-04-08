@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "sprintf": "^1.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
