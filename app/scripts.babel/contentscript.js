@@ -13,7 +13,7 @@ for (var a in newsSites) {
   newsSites[a] = sprintf('[href*="%s"]', newsSites[a]);
 }
 
-var template = '<div class="totb-container" style="margin: 10px 1px; padding: 10px 15px; background-color: #202020; color: white; border-radius: 2px;"><h1 style="font-size: 1.6rem; color: #ccc;">Think Outside The Box</h1><h2 style="margin: 10px 0; color: #ddd;">Noticias relacionadas desde la otra vereda</h2>%s</div>';
+var template = '<div class="totb-container" style="margin: 10px 1px; padding: 10px 15px; background-color: #202020; color: white; border-radius: 2px;"><h1 style="font-size: 1.6rem; color: #ccc;">News Outside The Box</h1><h2 style="margin: 10px 0; color: #ddd;">Noticias relacionadas desde la otra vereda</h2>%s</div>';
 var linkTemplate = '<p><a style="color: #80a9f7;" href="%s" target="_blank">%s</a></p>';
 
 var anchorSelector = sprintf('div[id*=hyperfeed_story_id] div[role=article] a%s', newsSites.join(','));
